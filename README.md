@@ -1,6 +1,6 @@
 # Spring-Eureka-Example
 
-The Repository contains 3 projects -
+The Repository contains 3 Spring boot based projects initially created using Spring initializer -
 
 Eureka Server - Setting up service registry
 
