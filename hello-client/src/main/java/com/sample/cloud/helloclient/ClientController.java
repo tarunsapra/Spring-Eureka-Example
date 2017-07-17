@@ -14,11 +14,10 @@ import org.springframework.web.client.RestTemplate;
 public class ClientController {
 
     @Autowired
-    RestTemplate restTemplate;
+    ClientService clientService;
 
     @GetMapping
     public String getString() {
-        String url = "http://hello-server/rest/data";
-        return restTemplate.getForObject(url, String.class);
+        return clientService.getString();
     }
 }
